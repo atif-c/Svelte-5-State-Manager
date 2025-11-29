@@ -46,7 +46,7 @@ const settingsManager = new StateManager<AppSettings>(
     { delay: 500, maxWait: 2000 }
 );
 
-// Initialize: Load from persistent storage into reactive memory
+// Initialise: Load from persistent storage into reactive memory
 await settingsManager.load();
 
 // Export state
